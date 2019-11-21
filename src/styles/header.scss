@@ -3,8 +3,10 @@
   height: 120px;
   display: flex;
   justify-content: center;
+  background: transparent;
 
   .header-content {
+    font-family: "Alata", sans-serif;
     width: 943px;
     height: 79px;
     display: flex;
@@ -27,6 +29,10 @@
           padding: 0%;
           margin: 0%;
           color: black;
+          transition: ease-in-out 0.1s;
+        }
+        h3:hover {
+          color: red;
         }
       }
     }
