@@ -3,7 +3,7 @@
   height: 120px;
   display: flex;
   justify-content: center;
-  background: transparent;
+  background: #003263;
 
   .header-content {
     font-family: "Alata", sans-serif;
@@ -28,13 +28,21 @@
         h3 {
           padding: 0%;
           margin: 0%;
-          color: black;
+          color: whitesmoke;
           transition: ease-in-out 0.1s;
         }
         h3:hover {
-          color: red;
+          color: #a1aaff;
         }
       }
     }
   }
 }
+
+// @media only screen and (max-width: 400px) {
+//   /* For mobile phones: */
+//   .header-wrapper {
+//     width: 100vw;
+//     height: 120px;
+//   }
+// }
