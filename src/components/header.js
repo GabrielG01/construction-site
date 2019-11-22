@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
+import logo from "../images/Logo.png";
 
 export default class Header extends Component {
   render() {
@@ -7,9 +8,9 @@ export default class Header extends Component {
       <div className="header-wrapper">
         <div className="header-content">
           <div className="header-home-button">
-            <NavLink className="header-home" exact to="/">
-              Home
-            </NavLink>
+            <div className="header_logo">
+              <img src={logo} />
+            </div>
           </div>
 
           <div className="header-nav-link-wrapper">

@@ -38,7 +38,25 @@ export default class Home extends Component {
           </div>
         </div>
         <div className="home-image-wrapper-two"></div>
-
+        <div className="home-content-wrapper">
+          <div className="home-content-left">
+            <h1>Our promise</h1>
+            <p>
+              We’ll only work with the best materials available and provide a 1
+              year guarantee on all labor. We never compromise quality for time
+              and give my clients realistic schedules that accommodate their
+              lives. We strive for honest customer service, so contracts are
+              only paid in full when the finished work is to your complete
+              satisfaction.
+            </p>
+          </div>
+          <div className="home-content-right">
+            <h1>See our handy work</h1>
+            <NavLink className="footer-button" exact to="/gallery">
+              Project Gallery
+            </NavLink>
+          </div>
+        </div>
         <Footer />
       </div>
     );
