@@ -1,0 +1,30 @@
+.contact-content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .contact-top {
+    display: flex;
+    justify-content: space-around;
+
+    .contact-address-wrapper {
+      margin: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .contact-email-wrapper {
+      margin: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  .contact-bottom {
+    height: 80px;
+  }
+}
