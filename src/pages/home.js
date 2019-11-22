@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import Header from "../components/header";
 import Footer from "../components/footer";
+import { NavLink } from "react-router-dom";
+
 import photo_one from "../images/stock1.jpg";
 import photo_two from "../images/stock2.jpg";
 
@@ -9,12 +11,11 @@ export default class Home extends Component {
     return (
       <div className="home-wrapper">
         <Header />
-        <div className="home-image-wrapper">
+        <div className="home-image-wrapper-one">
           <h1>Company Name</h1>
         </div>
         <div className="home-content-wrapper">
           <div className="home-content-left">
-            <h3>Services</h3>
             <h1>About us</h1>
             <p>
               Woodwork, painting, electrical, plumbing, and more. My services
@@ -25,7 +26,19 @@ export default class Home extends Component {
               along with free estimates.
             </p>
           </div>
+
+          <div className="home-content-right">
+            <h1>Schedule Appointment</h1>
+            <p>
+              All estimates are free and flexible to materials and scheduling
+            </p>
+            <NavLink className="footer-button" exact to="/contact">
+              Start Now
+            </NavLink>
+          </div>
         </div>
+        <div className="home-image-wrapper-two"></div>
+
         <Footer />
       </div>
     );

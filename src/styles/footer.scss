@@ -3,11 +3,29 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 100vw;
-  height: 400px;
+  // width: 100vw;
+  height: 500px;
   background-color: #212121;
 
   h1 {
     color: whitesmoke;
+  }
+
+  .footer-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 70px;
+    background-color: transparent;
+    text-decoration: none;
+    border: red 2px solid;
+    color: red;
+    transition: ease-in-out 0.1s;
+
+    &:hover {
+      background-color: red;
+      color: whitesmoke;
+    }
   }
 }
