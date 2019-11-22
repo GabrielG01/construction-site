@@ -1,0 +1,17 @@
+.home-image-wrapper {
+  background-image: url("../images/stock1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100em;
+  width: 100vw;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    font-size: 112px;
+    margin: 0%;
+    color: whitesmoke;
+    font-family: "Alata", sans-serif;
+  }
+}

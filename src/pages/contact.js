@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Header from "../components/header";
+import Footer from "../components/footer";
 
 export default class Contact extends Component {
   constructor() {
@@ -18,6 +19,7 @@ export default class Contact extends Component {
         <Header />
         Contact Page
         <button onClick={this.handleEmail}>Email Test</button>
+        <Footer />
       </div>
     );
   }
