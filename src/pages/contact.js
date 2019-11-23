@@ -9,10 +9,6 @@ export default class Contact extends Component {
     this.handleEmail = this.handleEmail.bind(this);
   }
 
-  handleEmail() {
-    window.open("mailto:test@example.com");
-  }
-
   render() {
     return (
       <div className="contact-wrapper">
