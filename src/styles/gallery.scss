@@ -21,10 +21,17 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        padding: 42px;
         font-size: 1.2em;
         text-align: center;
+        font-family: "Alata", sans-serif;
       }
     }
   }
+}
+
+.gallery-header-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Alata", sans-serif;
 }
